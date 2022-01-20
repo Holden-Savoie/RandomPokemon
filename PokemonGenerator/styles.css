@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font      : 'Arial', sans-serif;
+    color     : gray;
+}
+
+img {
+    max-width: 100%;
+    filter   : drop-shadow(2px 4px 6px black);
+}
+
+.img-cont {
+    display        : flex;
+    justify-content: center;
+    width          : 50vw;
+    margin         : 50vw;
+    margin         : 0 auto;
+    border         : 3px solid gray;
+}
+
+.info-area {
+    display        : flex;
+    justify-content: space-between;
+    width          : 50%;
+    margin         : 0 auto;
+}
+
+#trigger {
+    display         : block;
+    width           : 20%;
+    padding         : 10px 0;
+    background-color: white;
+    color           : lightskyblue;
+    border          : 1px solid gray;
+    font-size       : 24px;
+    margin          : 0 auto;
+    margin-bottom   : 30px;
+}
+
+#trigger:hover {
+    background-color: lightskyblue;
+    color           : white;
+    box-shadow      : 3px 3px 0px 0px black;
+}
